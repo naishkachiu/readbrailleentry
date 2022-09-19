@@ -20,9 +20,9 @@ function findInArray(bNum: any): string {
 
 basic.forever(function on_forever() {
     
-    dot1 = pins.digitalReadPin(DigitalPin.P13)
-    dot2 = pins.digitalReadPin(DigitalPin.P1)
-    dot3 = pins.digitalReadPin(DigitalPin.P2)
+    dot1 = pins.digitalReadPin(DigitalPin.P1)
+    dot2 = pins.digitalReadPin(DigitalPin.P2)
+    dot3 = pins.digitalReadPin(DigitalPin.P13)
     dot4 = pins.digitalReadPin(DigitalPin.P14)
     dot5 = pins.digitalReadPin(DigitalPin.P15)
     dot6 = pins.digitalReadPin(DigitalPin.P16)
